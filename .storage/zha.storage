@@ -1,0 +1,48 @@
+{
+    "version": 1,
+    "key": "zha.storage",
+    "data": {
+        "devices": [
+            {
+                "name": "Silicon Labs EZSP",
+                "ieee": "cc:cc:cc:ff:fe:a5:f4:02",
+                "last_seen": 1604316107.5808146
+            },
+            {
+                "name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm",
+                "ieee": "68:0a:e2:ff:fe:a9:a4:46",
+                "last_seen": 1604322405.2152264
+            },
+            {
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "ieee": "00:15:8d:00:02:c3:7c:3a",
+                "last_seen": 1604320531.6526313
+            },
+            {
+                "name": "IKEA of Sweden TRADFRI remote control",
+                "ieee": "68:0a:e2:ff:fe:a3:63:ea",
+                "last_seen": 1604321614.8863456
+            },
+            {
+                "name": "LUMI lumi.weather",
+                "ieee": "00:15:8d:00:05:4d:4a:1a",
+                "last_seen": 1604321464.9361184
+            },
+            {
+                "name": "LUMI lumi.weather",
+                "ieee": "00:15:8d:00:05:4c:b3:7b",
+                "last_seen": 1604322333.6957061
+            },
+            {
+                "name": "LUMI lumi.weather",
+                "ieee": "00:15:8d:00:05:4c:b3:a4",
+                "last_seen": 1604322007.9092245
+            },
+            {
+                "name": "LUMI lumi.weather",
+                "ieee": "00:15:8d:00:05:4c:b1:c4",
+                "last_seen": 1604321270.3183005
+            }
+        ]
+    }
+}

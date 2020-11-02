@@ -1,0 +1,865 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.salamandar",
+                "state": "home",
+                "attributes": {
+                    "editable": true,
+                    "id": "salamandar",
+                    "latitude": 45.1939813,
+                    "longitude": 5.7151852,
+                    "gps_accuracy": 49,
+                    "source": "device_tracker.redmi_note_9_pro",
+                    "user_id": "664dfef74d72494c84392228ff027289",
+                    "friendly_name": "Salamandar",
+                    "entity_picture": "/api/image/serve/f7a6d1ae16d2c6b5462c7e879d4941f6/512x512"
+                },
+                "last_changed": "2020-11-02T11:01:42.707208+00:00",
+                "last_updated": "2020-11-02T11:01:47.492548+00:00",
+                "context": {
+                    "id": "cd31c59c1cfa11eb820b11fe3f2d8f62",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.ikea_remote_2",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-11-02T12:53:32.786407+00:00",
+                    "mode": "restart",
+                    "current": 0,
+                    "id": "bureau-ikea_remote",
+                    "friendly_name": "IKEA Remote"
+                },
+                "last_changed": "2020-11-02T11:01:44.603738+00:00",
+                "last_updated": "2020-11-02T12:53:32.795515+00:00",
+                "context": {
+                    "id": "69dc5dfc1d0a11eb9fac47f2ed0a3a4c",
+                    "parent_id": "69dbf0d91d0a11eb99132185b6057e2f",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.redmi_note_9_pro",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 45.1939813,
+                    "longitude": 5.7151852,
+                    "gps_accuracy": 49,
+                    "altitude": 275.0,
+                    "course": 161,
+                    "speed": 0,
+                    "vertical_accuracy": 35,
+                    "friendly_name": "Silmarilion"
+                },
+                "last_changed": "2020-11-02T11:01:44.902814+00:00",
+                "last_updated": "2020-11-02T11:01:44.902814+00:00",
+                "context": {
+                    "id": "cba69cdc1cfa11eba6d72db434b2c490",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.aqara_door_sensor_terrasse",
+                "state": "on",
+                "attributes": {
+                    "friendly_name": "Porte Terrasse",
+                    "device_class": "door"
+                },
+                "last_changed": "2020-11-02T11:01:46.821111+00:00",
+                "last_updated": "2020-11-02T11:01:46.821111+00:00",
+                "context": {
+                    "id": "cccb52111cfa11eb8b66d31fa303185e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.aqara_door_sensor_terrasse_power",
+                "state": "100",
+                "attributes": {
+                    "battery_size": "CR1632",
+                    "battery_quantity": 1,
+                    "battery_voltage": 3.0,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Porte Terrasse",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T11:01:46.821732+00:00",
+                "last_updated": "2020-11-02T11:45:23.767536+00:00",
+                "context": {
+                    "id": "e49da79c1d0011eba2c61f4341ba1eef",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.tradfri_remote_bureau_power",
+                "state": "21",
+                "attributes": {
+                    "battery_voltage": 2.6,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Remote Tradfri bureau",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T12:07:24.390385+00:00",
+                "last_updated": "2020-11-02T12:07:24.390759+00:00",
+                "context": {
+                    "id": "f7c4c4741d0311ebae126b554b878bfa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_terrasse_humidity",
+                "state": "63.9",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Humidit\u00e9 Terrasse",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T13:15:42.643912+00:00",
+                "last_updated": "2020-11-02T13:15:42.643912+00:00",
+                "context": {
+                    "id": "828490c51d0d11ebbfae837bb835d203",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_terrasse_power",
+                "state": "100",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "battery_voltage": 3.0,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Batterie M\u00e9t\u00e9o Terrasse",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T11:01:46.823230+00:00",
+                "last_updated": "2020-11-02T12:33:36.473698+00:00",
+                "context": {
+                    "id": "a0cd95ad1d0711ebb35b798f4115e804",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_terrasse_pression",
+                "state": "995",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "Pression M\u00e9t\u00e9o Terrasse",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T12:33:47.250032+00:00",
+                "last_updated": "2020-11-02T12:33:47.250032+00:00",
+                "context": {
+                    "id": "a739ed351d0711eba8896180f23863d5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_terrasse_temperature",
+                "state": "17.7",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Temp\u00e9rature Terrasse",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T13:15:42.643411+00:00",
+                "last_updated": "2020-11-02T13:15:42.643411+00:00",
+                "context": {
+                    "id": "82847e511d0d11ebad9f2ba88d13cc6b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_chambre_humidity",
+                "state": "59.1",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Chambre Humidit\u00e9",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T13:05:33.721009+00:00",
+                "last_updated": "2020-11-02T13:05:33.721009+00:00",
+                "context": {
+                    "id": "17924f761d0c11eb9728cf34fd1a635e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_chambre_power",
+                "state": "100",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "battery_voltage": 3.1,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Chambre Batterie",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T11:23:12.521020+00:00",
+                "last_updated": "2020-11-02T11:23:12.521315+00:00",
+                "context": {
+                    "id": "cb219ad41cfd11eb986fcb6987762089",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_chambre_pressure",
+                "state": "995",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "M\u00e9t\u00e9o Chambre Pression",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T12:25:05.868735+00:00",
+                "last_updated": "2020-11-02T12:25:05.868735+00:00",
+                "context": {
+                    "id": "7075747e1d0611ebae43e3942e4284ba",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_chambre_temperature",
+                "state": "21.0",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Temp\u00e9rature chambre",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T13:05:33.720570+00:00",
+                "last_updated": "2020-11-02T13:05:33.720570+00:00",
+                "context": {
+                    "id": "17923d651d0c11eb98ac294e16b015a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_salon_humidity",
+                "state": "52.3",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Humidit\u00e9 Salon",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T13:16:31.102463+00:00",
+                "last_updated": "2020-11-02T13:16:31.102463+00:00",
+                "context": {
+                    "id": "9f66c24e1d0d11eba957557b4a400220",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_salon_power",
+                "state": "100",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "battery_voltage": 3.0,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Salon Power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T11:29:25.832926+00:00",
+                "last_updated": "2020-11-02T11:29:25.833338+00:00",
+                "context": {
+                    "id": "a9a47f3a1cfe11ebacf1f778eae76dcf",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_salon_pressure",
+                "state": "996",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "M\u00e9t\u00e9o Salon Pression",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T13:16:31.102783+00:00",
+                "last_updated": "2020-11-02T13:16:31.102783+00:00",
+                "context": {
+                    "id": "9f66cec91d0d11ebb534335d8676099a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_salon_temperature",
+                "state": "23.6",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Temp\u00e9rature Salon",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T13:16:31.102063+00:00",
+                "last_updated": "2020-11-02T13:16:31.102063+00:00",
+                "context": {
+                    "id": "9f66b22a1d0d11eb84a3cd971b36b7c9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_bureau_humidity",
+                "state": "51.2",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Humidit\u00e9 Bureau",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T12:47:50.321765+00:00",
+                "last_updated": "2020-11-02T12:47:50.321765+00:00",
+                "context": {
+                    "id": "9dbc765e1d0911ebb0e11df8efceeeec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_bureau_power",
+                "state": "100",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "battery_voltage": 3.0,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Bureau Batterie",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T11:31:46.085446+00:00",
+                "last_updated": "2020-11-02T11:31:46.085741+00:00",
+                "context": {
+                    "id": "fd3d51321cfe11eba87323a06a501eec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_bureau_pressure",
+                "state": "994",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "M\u00e9t\u00e9o Bureau Pression",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T12:47:50.322045+00:00",
+                "last_updated": "2020-11-02T12:47:50.322045+00:00",
+                "context": {
+                    "id": "9dbc81a01d0911ebb332cf6bd757f31b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weather_bureau_temperature",
+                "state": "23.9",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "Temp\u00e9rature Bureau",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T12:47:50.321318+00:00",
+                "last_updated": "2020-11-02T12:47:50.321318+00:00",
+                "context": {
+                    "id": "9dbc641a1d0911eba30c317f6bfa162c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.tradfri_bulb_bureau",
+                "state": "off",
+                "attributes": {
+                    "min_mireds": 250,
+                    "max_mireds": 454,
+                    "off_brightness": null,
+                    "friendly_name": "Ampoule Bureau",
+                    "supported_features": 43
+                },
+                "last_changed": "2020-11-02T11:17:31.483965+00:00",
+                "last_updated": "2020-11-02T11:17:31.483965+00:00",
+                "context": {
+                    "id": "ffcd70901cfc11ebb14175c3c349d357",
+                    "parent_id": "ffcd17d01cfc11ebbb520f68216ddf81",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T13:16:47.495172+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_1a4a4d05_humidity",
+                "state": "50.0",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Terrasse 1a4a4d05 humidity",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T09:59:51.896387+00:00",
+                "last_updated": "2020-11-02T09:59:51.896387+00:00",
+                "context": {
+                    "id": "2686ca641cf211eb892fad1696296f6a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:00:53.184096+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_1a4a4d05_temperature",
+                "state": "25.2",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "M\u00e9t\u00e9o Terrasse 1a4a4d05 temperature",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T09:59:51.892582+00:00",
+                "last_updated": "2020-11-02T09:59:51.892582+00:00",
+                "context": {
+                    "id": "2686363e1cf211eb896ea5f96b1bc301",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:01:13.722354+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_1a4a4d05_power",
+                "state": "100",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "battery_voltage": 3.0,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Terrasse 1a4a4d05 power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T09:53:20.990648+00:00",
+                "last_updated": "2020-11-02T09:59:22.746554+00:00",
+                "context": {
+                    "id": "1526e0a91cf211eb9816e5126026c2de",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:01:49.262183+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_1a4a4d05_pressure",
+                "state": "996",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "M\u00e9t\u00e9o Terrasse 1a4a4d05 pressure",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T09:53:23.099330+00:00",
+                "last_updated": "2020-11-02T09:59:22.747153+00:00",
+                "context": {
+                    "id": "1526f8451cf211ebac652fdf19f6030e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:02:01.897712+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_7bb34c05_humidity",
+                "state": "92.7",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "LUMI lumi.weather 7bb34c05 humidity",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T10:32:51.506905+00:00",
+                "last_updated": "2020-11-02T10:32:51.506905+00:00",
+                "context": {
+                    "id": "c27761e71cf611eba85269dba5d3d6ab",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:32:57.162228+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_7bb34c05_power",
+                "state": "unknown",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "LUMI lumi.weather 7bb34c05 power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T10:32:44.233536+00:00",
+                "last_updated": "2020-11-02T10:32:44.233536+00:00",
+                "context": {
+                    "id": "be218e3a1cf611eb8ce0e7b7ea569525",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:32:57.179415+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_7bb34c05_pressure",
+                "state": "997",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "LUMI lumi.weather 7bb34c05 pressure",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T10:32:45.030193+00:00",
+                "last_updated": "2020-11-02T10:32:45.030193+00:00",
+                "context": {
+                    "id": "be9b1e0c1cf611ebbbc54fa97c54d943",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:32:57.180208+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_7bb34c05_temperature",
+                "state": "23.1",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "LUMI lumi.weather 7bb34c05 temperature",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T10:32:51.503631+00:00",
+                "last_updated": "2020-11-02T10:32:51.503631+00:00",
+                "context": {
+                    "id": "c276e1cd1cf611eb9eb8ebbf05dc7a41",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:32:57.181030+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_humidity",
+                "state": "59.8",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Salon humidity",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T10:39:24.968598+00:00",
+                "last_updated": "2020-11-02T10:39:24.968598+00:00",
+                "context": {
+                    "id": "acfce0051cf711ebae1b0f29902175ee",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:43:39.626069+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_power",
+                "state": "unknown",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "M\u00e9t\u00e9o Salon power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T10:39:03.864649+00:00",
+                "last_updated": "2020-11-02T10:39:03.864649+00:00",
+                "context": {
+                    "id": "a068aa8d1cf711ebb57623def71e6924",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:43:49.603926+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_pressure",
+                "state": "997",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "M\u00e9t\u00e9o Salon pressure",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T10:39:03.865749+00:00",
+                "last_updated": "2020-11-02T10:39:03.865749+00:00",
+                "context": {
+                    "id": "a068d5c41cf711ebb708e3316a7f8bec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:44:00.664312+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_temperature",
+                "state": "22.7",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "M\u00e9t\u00e9o Salon temperature",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T10:44:00.130372+00:00",
+                "last_updated": "2020-11-02T10:44:00.130372+00:00",
+                "context": {
+                    "id": "50ff3a521cf811eb8b8cd780b6da974f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:44:13.798609+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_a4b34c05_humidity",
+                "state": "74.3",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "LUMI lumi.weather a4b34c05 humidity",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T10:39:03.342438+00:00",
+                "last_updated": "2020-11-02T10:39:03.342438+00:00",
+                "context": {
+                    "id": "a018fb811cf711eb9a59d90a140be366",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:39:03.828999+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_a4b34c05_power",
+                "state": "unknown",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "LUMI lumi.weather a4b34c05 power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T10:38:52.659072+00:00",
+                "last_updated": "2020-11-02T10:38:52.659072+00:00",
+                "context": {
+                    "id": "99bad5631cf711eb804b5de3c49d8574",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:39:03.836570+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_a4b34c05_pressure",
+                "state": "997",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "LUMI lumi.weather a4b34c05 pressure",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T10:38:53.426804+00:00",
+                "last_updated": "2020-11-02T10:38:53.426804+00:00",
+                "context": {
+                    "id": "9a2ffa581cf711eba7c8690e45e7d830",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:39:03.837480+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_a4b34c05_temperature",
+                "state": "23.1",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "LUMI lumi.weather a4b34c05 temperature",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T10:38:53.422980+00:00",
+                "last_updated": "2020-11-02T10:38:53.422980+00:00",
+                "context": {
+                    "id": "9a2f63241cf711eba472f1a77703f8fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:39:03.838394+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_c4b14c05_humidity",
+                "state": "59.1",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "LUMI lumi.weather c4b14c05 humidity",
+                    "device_class": "humidity"
+                },
+                "last_changed": "2020-11-02T10:41:24.793505+00:00",
+                "last_updated": "2020-11-02T10:41:24.793505+00:00",
+                "context": {
+                    "id": "f468b4cf1cf711ebbd68fd9fdb7a2009",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:42:41.293846+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_c4b14c05_power",
+                "state": "unknown",
+                "attributes": {
+                    "battery_size": "CR2032",
+                    "battery_quantity": 1,
+                    "unit_of_measurement": "%",
+                    "friendly_name": "LUMI lumi.weather c4b14c05 power",
+                    "device_class": "battery"
+                },
+                "last_changed": "2020-11-02T10:40:55.754074+00:00",
+                "last_updated": "2020-11-02T10:40:55.754074+00:00",
+                "context": {
+                    "id": "e319a3d71cf711eb86b8277ec727d782",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:42:53.661235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_c4b14c05_pressure",
+                "state": "996",
+                "attributes": {
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "LUMI lumi.weather c4b14c05 pressure",
+                    "device_class": "pressure"
+                },
+                "last_changed": "2020-11-02T10:40:56.521079+00:00",
+                "last_updated": "2020-11-02T10:40:56.521079+00:00",
+                "context": {
+                    "id": "e38ead971cf711eb99694bfcd5d24ca6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:43:07.371358+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.lumi_lumi_weather_c4b14c05_temperature",
+                "state": "23.5",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0C",
+                    "friendly_name": "LUMI lumi.weather c4b14c05 temperature",
+                    "device_class": "temperature"
+                },
+                "last_changed": "2020-11-02T10:41:24.787282+00:00",
+                "last_updated": "2020-11-02T10:41:24.787282+00:00",
+                "context": {
+                    "id": "f467c0f91cf711eb9d717729bfd9c3c6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-02T10:43:18.930111+00:00"
+        }
+    ]
+}

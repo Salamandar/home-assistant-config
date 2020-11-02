@@ -1,0 +1,330 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Maison",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "panel": false,
+                    "icon": "mdi:home",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "title": "Portes",
+                            "cards": [
+                                {
+                                    "type": "custom:card-templater",
+                                    "entities": [
+                                        "sensor.door_total",
+                                        "sensor.door_open"
+                                    ],
+                                    "card": {
+                                        "type": "gauge",
+                                        "entity": "sensor.door_open",
+                                        "unit": "porte(s) ouvertes",
+                                        "min": -0.05,
+                                        "max_template": "{{ states.sensor.door_total.state }}",
+                                        "name_template": "{{ \"sur \" + states.sensor.door_total.state + \" portes au total\" }}"
+                                    }
+                                },
+                                {
+                                    "type": "entities",
+                                    "entities": [
+                                        {
+                                            "entity": "binary_sensor.aqara_door_sensor_terrasse"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "custom:battery-state-card",
+                            "title": "Batteries",
+                            "entities": [
+                                "sensor.aqara_door_sensor_terrasse_power",
+                                "sensor.tradfri_remote_bureau_power",
+                                {
+                                    "entity": "sensor.redmi_note_9_pro_niveau_de_batterie",
+                                    "name": "Silmarilion"
+                                },
+                                "sensor.weather_terrasse_power",
+                                "sensor.weather_bureau_power",
+                                "sensor.weather_salon_power",
+                                "sensor.weather_chambre_power"
+                            ],
+                            "sort_by_level": "asc",
+                            "collapse": 4
+                        },
+                        {
+                            "type": "custom:mini-graph-card",
+                            "name": "Temp\u00e9ratures",
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_terrasse_temperature",
+                                    "name": "Dehors"
+                                },
+                                {
+                                    "entity": "sensor.weather_chambre_temperature",
+                                    "name": "Chambre"
+                                },
+                                {
+                                    "entity": "sensor.weather_salon_temperature",
+                                    "name": "Salon"
+                                },
+                                {
+                                    "entity": "sensor.weather_bureau_temperature",
+                                    "name": "Bureau"
+                                }
+                            ],
+                            "show": {
+                                "icon": false,
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.maison"
+                        },
+                        {
+                            "type": "glance",
+                            "entities": [
+                                {
+                                    "entity": "sensor.door_open"
+                                },
+                                {
+                                    "entity": "sensor.home_assistant_uptime"
+                                }
+                            ],
+                            "show_name": true,
+                            "show_icon": true,
+                            "show_state": true,
+                            "state_color": true
+                        },
+                        {
+                            "type": "map",
+                            "entities": [
+                                {
+                                    "entity": "person.salamandar"
+                                }
+                            ],
+                            "hours_to_show": 3
+                        }
+                    ]
+                },
+                {
+                    "title": "Histogrammes",
+                    "path": "histogrammes",
+                    "icon": "mdi:chart-bell-curve",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:mini-graph-card",
+                            "name": "Temp\u00e9ratures sur 1h",
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_terrasse_temperature",
+                                    "name": "Dehors"
+                                },
+                                {
+                                    "entity": "sensor.weather_chambre_temperature",
+                                    "name": "Chambre"
+                                },
+                                {
+                                    "entity": "sensor.weather_salon_temperature",
+                                    "name": "Salon"
+                                },
+                                {
+                                    "entity": "sensor.weather_bureau_temperature",
+                                    "name": "Bureau"
+                                }
+                            ],
+                            "hours_to_show": 1,
+                            "points_per_hour": 60,
+                            "line_width": 2
+                        },
+                        {
+                            "type": "custom:mini-graph-card",
+                            "name": "Temp\u00e9ratures sur 24h",
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_terrasse_temperature",
+                                    "name": "Dehors"
+                                },
+                                {
+                                    "entity": "sensor.weather_chambre_temperature",
+                                    "name": "Chambre"
+                                },
+                                {
+                                    "entity": "sensor.weather_salon_temperature",
+                                    "name": "Salon"
+                                },
+                                {
+                                    "entity": "sensor.weather_bureau_temperature",
+                                    "name": "Bureau"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "points_per_hour": 10,
+                            "line_width": 2
+                        },
+                        {
+                            "type": "custom:mini-graph-card",
+                            "name": "Temp\u00e9ratures sur 1 semaine",
+                            "entities": [
+                                {
+                                    "entity": "sensor.weather_terrasse_temperature",
+                                    "name": "Dehors"
+                                },
+                                {
+                                    "entity": "sensor.weather_chambre_temperature",
+                                    "name": "Chambre"
+                                },
+                                {
+                                    "entity": "sensor.weather_salon_temperature",
+                                    "name": "Salon"
+                                },
+                                {
+                                    "entity": "sensor.weather_bureau_temperature",
+                                    "name": "Bureau"
+                                }
+                            ],
+                            "hours_to_show": 168,
+                            "line_width": 2
+                        },
+                        {
+                            "type": "custom:mini-graph-card",
+                            "name": "Batteries Zigbee sur 1 mois",
+                            "entities": [
+                                {
+                                    "entity": "sensor.aqara_door_sensor_terrasse_power",
+                                    "name": "Porte Terrasse"
+                                },
+                                {
+                                    "entity": "sensor.tradfri_remote_bureau_power",
+                                    "name": "Remote Tradfri"
+                                },
+                                {
+                                    "entity": "sensor.weather_terrasse_power",
+                                    "name": "M\u00e9t\u00e9o Terrasse"
+                                },
+                                {
+                                    "entity": "sensor.weather_bureau_power",
+                                    "name": "M\u00e9t\u00e9o Bureau"
+                                },
+                                {
+                                    "entity": "sensor.weather_salon_power",
+                                    "name": "M\u00e9t\u00e9o Salon"
+                                },
+                                {
+                                    "entity": "sensor.weather_chambre_power",
+                                    "name": "M\u00e9t\u00e9o Chambre"
+                                }
+                            ],
+                            "hours_to_show": 720,
+                            "points_per_hour": 0.1,
+                            "line_width": 2
+                        }
+                    ]
+                },
+                {
+                    "title": "Terrasse",
+                    "path": "terrasse",
+                    "panel": false,
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.aqara_door_sensor_terrasse"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "custom:mini-graph-card",
+                                    "name": "Temp\u00e9rature",
+                                    "group": true,
+                                    "align_header": "center",
+                                    "entities": [
+                                        "sensor.weather_terrasse_temperature"
+                                    ]
+                                },
+                                {
+                                    "type": "custom:mini-graph-card",
+                                    "name": "Humidit\u00e9",
+                                    "group": true,
+                                    "align_header": "center",
+                                    "entities": [
+                                        "sensor.weather_terrasse_humidity"
+                                    ]
+                                },
+                                {
+                                    "type": "custom:mini-graph-card",
+                                    "name": "Pression",
+                                    "group": true,
+                                    "align_header": "center",
+                                    "entities": [
+                                        "sensor.weather_terrasse_pression"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Bureau",
+                    "path": "bureau",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "show_header_toggle": false,
+                            "entities": [
+                                {
+                                    "entity": "light.tradfri_bulb_bureau"
+                                },
+                                {
+                                    "entity": "light.tradfri_bulb_bureau",
+                                    "type": "custom:slider-entity-row",
+                                    "full_row": true
+                                },
+                                {
+                                    "entity": "light.tradfri_bulb_bureau",
+                                    "type": "custom:slider-entity-row",
+                                    "attribute": "color_temp",
+                                    "name": "Temp\u00e9rature"
+                                },
+                                {
+                                    "entity": "light.tradfri_bulb_bureau",
+                                    "type": "custom:rgb-light-card",
+                                    "justify": "around",
+                                    "colors": [
+                                        {
+                                            "color_temp": 250,
+                                            "label": "Bleu"
+                                        },
+                                        {
+                                            "color_temp": 352,
+                                            "label": "Chaud"
+                                        },
+                                        {
+                                            "color_temp": 454,
+                                            "label": "Orange"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

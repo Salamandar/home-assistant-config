@@ -1,0 +1,9 @@
+binary_sensor.lumi_lumi_sensor_magnet_aq2_on_off:
+  device_class: door
+light.lampe_bureau_level_light_color_on_off: {}
+sensor.door_open:
+  icon: mdi:door-open
+sensor.door_total:
+  icon: mdi:door
+binary_sensor.aqara_door_sensor_terrasse:
+  device_class: door

@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Salamandar",
+                "user_id": "664dfef74d72494c84392228ff027289",
+                "device_trackers": [
+                    "device_tracker.redmi_note_9_pro"
+                ],
+                "id": "salamandar",
+                "picture": "/api/image/serve/f7a6d1ae16d2c6b5462c7e879d4941f6/512x512"
+            }
+        ]
+    }
+}

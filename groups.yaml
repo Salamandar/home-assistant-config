@@ -1,0 +1,4 @@
+
+doors:
+  entities:
+    - binary_sensor.aqara_door_sensor_terrasse

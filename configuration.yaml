@@ -1,0 +1,64 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+homeassistant:
+  customize: !include customize.yaml
+
+frontend:
+  themes: !include_dir_merge_named themes
+
+api:
+
+history:
+  exclude:
+    entity_globs:
+      - sensor.ikea_of_sweden_tradfri_remote_control_ea63a3fe*
+      - sensor.*3a7cc302*
+      - sensor.redmi_note_9_pro_niveau_de_batterie
+
+logger:
+  default: warning
+  logs:
+    homeassistant.core: debug
+
+zha_map:
+
+panel_custom:
+  - name: custom-panel-zigzag
+    sidebar_title: Zigzag
+    sidebar_icon: mdi:zigbee
+    url_path: zigzag
+    module_url: /local/zigzag/dist/zigzag-panel.js
+    trust_external_script: true
+    config:
+      who: world
+
+sensor:
+  - platform: template
+    sensors:
+      door_total:
+        friendly_name: "Nombre de portes"
+        value_template: >-
+          {{ expand('group.doors') | count | int }}
+      door_open:
+        friendly_name: "Portes ouvertes"
+        value_template: >-
+          {{ expand('group.doors') | selectattr('state', 'eq', 'on') | list | count }}
+
+  - platform: uptime
+    name: Home Assistant uptime
+    unit_of_measurement: hours
+  - platform: systemmonitor
+    resources:
+    - type: memory_use_percent
+    - type: processor_use
+    - type: load_5m

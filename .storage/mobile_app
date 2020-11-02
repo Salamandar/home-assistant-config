@@ -1,0 +1,166 @@
+{
+    "version": 1,
+    "key": "mobile_app",
+    "data": {
+        "binary_sensor": {
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_is_charging": {
+                "unique_id": "is_charging",
+                "state": true,
+                "type": "binary_sensor",
+                "icon": "mdi:power-plug",
+                "attributes": {},
+                "name": "En charge",
+                "device_class": "plug",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            }
+        },
+        "deleted_ids": [
+            "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec"
+        ],
+        "sensor": {
+            "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec_battery_level": {
+                "unique_id": "battery_level",
+                "state": 22,
+                "type": "sensor",
+                "icon": "mdi:battery-20",
+                "attributes": {},
+                "name": "Niveau de batterie",
+                "device_class": "battery",
+                "unit_of_measurement": "%",
+                "webhook_id": "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec",
+                "added": true
+            },
+            "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec_steps_sensor": {
+                "unique_id": "steps_sensor",
+                "state": "0",
+                "type": "sensor",
+                "icon": "mdi:walk",
+                "attributes": {},
+                "name": "Capteur de pas",
+                "unit_of_measurement": "steps",
+                "webhook_id": "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec",
+                "added": true
+            },
+            "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec_mobile_rx_gb": {
+                "unique_id": "mobile_rx_gb",
+                "state": 0.271,
+                "type": "sensor",
+                "icon": "mdi:radio-tower",
+                "attributes": {},
+                "name": "Re\u00e7u mobile en GB",
+                "unit_of_measurement": "GB",
+                "webhook_id": "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec",
+                "added": true
+            },
+            "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec_mobile_tx_gb": {
+                "unique_id": "mobile_tx_gb",
+                "state": 0.014,
+                "type": "sensor",
+                "icon": "mdi:radio-tower",
+                "attributes": {},
+                "name": "Transmis mobile en GB",
+                "unit_of_measurement": "GB",
+                "webhook_id": "42b5de1bc76e4d1f2aab032718728380866795885346cca2af4530de75e367ec",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_battery_level": {
+                "unique_id": "battery_level",
+                "state": 64,
+                "type": "sensor",
+                "icon": "mdi:battery-60",
+                "attributes": {},
+                "name": "Niveau de batterie",
+                "device_class": "battery",
+                "unit_of_measurement": "%",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_battery_state": {
+                "unique_id": "battery_state",
+                "state": "charging",
+                "type": "sensor",
+                "icon": "mdi:battery-plus",
+                "attributes": {
+                    "battery_health": "good",
+                    "charger_type": "ac",
+                    "is_charging": true
+                },
+                "name": "\u00c9tat de la batterie",
+                "device_class": "battery",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_charger_type": {
+                "unique_id": "charger_type",
+                "state": "ac",
+                "type": "sensor",
+                "icon": "mdi:power-plug",
+                "attributes": {},
+                "name": "Type de chargeur",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_battery_health": {
+                "unique_id": "battery_health",
+                "state": "good",
+                "type": "sensor",
+                "icon": "mdi:battery-heart-variant",
+                "attributes": {},
+                "name": "Sant\u00e9 de la batterie",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_wifi_connection": {
+                "unique_id": "wifi_connection",
+                "state": "Broceliande",
+                "type": "sensor",
+                "icon": "mdi:wifi",
+                "attributes": {
+                    "bssid": "34:27:92:36:17:b9",
+                    "frequency": 2437,
+                    "ip_address": "192.168.0.47",
+                    "is_hidden": false,
+                    "is_wifi_on": true,
+                    "link_speed": 144,
+                    "signal_level": -30
+                },
+                "name": "Connexion Wi-Fi",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_geocoded_location": {
+                "unique_id": "geocoded_location",
+                "state": "30 Rue Jean Mac\u00e9, 38000 Grenoble, France",
+                "type": "sensor",
+                "icon": "mdi:map",
+                "attributes": {
+                    "Administrative Area": "Auvergne-Rh\u00f4ne-Alpes",
+                    "Country": "France",
+                    "ISO Country Code": "FR",
+                    "Latitude": 45.194008,
+                    "Locality": "Grenoble",
+                    "Longitude": 5.7152333,
+                    "Postal Code": "38000",
+                    "Sub Administrative Area": "Is\u00e8re",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "30",
+                    "Thoroughfare": "Rue Jean Mac\u00e9"
+                },
+                "name": "Lieu g\u00e9ocod\u00e9",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            },
+            "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46_phone_state": {
+                "unique_id": "phone_state",
+                "state": "idle",
+                "type": "sensor",
+                "icon": "mdi:phone",
+                "attributes": {},
+                "name": "\u00c9tat du t\u00e9l\u00e9phone",
+                "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                "added": true
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Salon",
+                "id": "57c831f512c311eb93250fdd61df9b86"
+            },
+            {
+                "name": "Cuisine",
+                "id": "57c83c6012c311eba4d88fdf37f3e69d"
+            },
+            {
+                "name": "Chambre",
+                "id": "57c842ba12c311eb91ba39580047de35"
+            },
+            {
+                "name": "Terrasse",
+                "id": "78cf7ece12c311eba31a137df34dc2ff"
+            },
+            {
+                "name": "Bureau",
+                "id": "7a8e091912c311eb99daf7690f82191b"
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "63ad372b12c311ebad83471a8c75bee7",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "7019efe812c311eb84ea9d347744da09",
+                "version": 2,
+                "domain": "zha",
+                "title": "/dev/ttyZigbee",
+                "data": {
+                    "device": {
+                        "baudrate": 115200,
+                        "path": "/dev/ttyZigbee"
+                    },
+                    "radio_type": "ezsp"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "c105be2012c311eb9ab46fb932adf372",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "aefa22ad93ec42a95934826f331fa5c03150e906"
+                },
+                "options": {
+                    "sidepanel_title": "HA Community Store",
+                    "sidepanel_icon": "hacs:hacs",
+                    "release_limit": 5,
+                    "country": "ALL",
+                    "appdaemon": false,
+                    "netdaemon": false,
+                    "debug": false,
+                    "experimental": true
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "d6c01c1e12c311ebba862332b52e6604",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Ignored",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "ignore",
+                "connection_class": "local_poll",
+                "unique_id": "uuid:igd73616d61-6a65-7374-650a-3427923617b8::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            },
+            {
+                "entry_id": "3fbd0d0712f611ebb3688b53ad545b22",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Redmi Note 9 Pro",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.5.0-full (400)",
+                    "device_name": "Silmarilion",
+                    "manufacturer": "Xiaomi",
+                    "model": "Redmi Note 9 Pro",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "fTUJ_Ir_RcW1GSIvYJcBfF:APA91bHqzZpuesFVz5m4qVw2LsC3Rnb0yaJgoz5ZATzpwnHFPBaERf51j26lqCzvRaxfqjm8cQH2oxEm5CYQ79KUQkM56GOON55cZMvy6y-3ncAwuq9mYjxHG4znAQ7XdVSuM0fwUUXP"
+                    },
+                    "device_id": "bd5dc9acdcfbc72a",
+                    "webhook_id": "fb6a6fc0fe074c96f62f9fdc702bbd2a921a06817aeb3dc14f56ee4e2e00fc46",
+                    "user_id": "664dfef74d72494c84392228ff027289"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.homeassistant.companion.android-bd5dc9acdcfbc72a"
+            },
+            {
+                "entry_id": "490febe61b5a11eb96779b793bee9858",
+                "version": 1,
+                "domain": "nodered",
+                "title": "Node-RED",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            }
+        ]
+    }
+}

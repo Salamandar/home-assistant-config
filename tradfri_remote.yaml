@@ -1,0 +1,82 @@
+---
+#
+# This automation simulates the use of the IKEA TRADFRI Remote control
+# connected through zha but should also work for other type of events.
+# Requires Home Assistant 0.113 or higher.
+#
+id: 'bureau-ikea_remote'
+alias: IKEA Remote
+description: ''
+mode: restart
+trigger:
+  - platform: event
+    event_type: zha_event
+condition:
+  - condition: template
+    value_template: '{{ trigger.event.data.device_ieee == "68:0a:e2:ff:fe:a3:63:ea" }}'
+action:
+  - choose:
+    # Short-Press on the power button.
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.event.data.command == "toggle" }}'
+      sequence:
+        - service: light.toggle
+          data_template:
+            entity_id: light.tradfri_bulb_bureau
+    # Short-Press on the dim-up button.
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.event.data.command == "step_with_on_off" }}'
+      sequence:
+        - service: light.turn_on
+          data_template:
+            entity_id: light.tradfri_bulb_bureau
+            brightness_step_pct: 12.5
+            transition: 0.5
+    # Short-Press on the dim-down button.
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.event.data.command == "step" }}'
+      sequence:
+        - service: light.turn_on
+          data_template:
+            entity_id: light.tradfri_bulb_bureau
+            brightness_step_pct: -12.5
+            transition: 0.5
+    # Short-Press on the color-up button.
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.event.data.command == "press" }}'
+      - condition: template
+        value_template: '{{ trigger.event.data.args == [256,13,0] }}'
+      sequence:
+        - service: light.turn_on
+          data_template:
+            entity_id: light.tradfri_bulb_bureau
+            color_temp: >-
+                {% if state_attr("light.tradfri_bulb_bureau", "color_temp") + 102 > 454 %}
+                  454
+                {% else %}
+                  {{ state_attr("light.tradfri_bulb_bureau", "color_temp") + 102 }}
+                {% endif %}
+            transition: 0.5
+    # Short-Press on the color-down button.
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.event.data.command == "press" }}'
+      - condition: template
+        value_template: '{{ trigger.event.data.args == [257,13,0] }}'
+      sequence:
+        - service: light.turn_on
+          data_template:
+            entity_id: light.tradfri_bulb_bureau
+            color_temp: >-
+                {% if state_attr("light.tradfri_bulb_bureau", "color_temp") - 102 < 250 %}
+                  250
+                {% else %}
+                  {{ state_attr("light.tradfri_bulb_bureau", "color_temp") - 102 }}
+                {% endif %}
+            transition: 0.5
+    # Any other event will cancel the repeat loops.
+    default: []

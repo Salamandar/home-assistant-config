@@ -1,0 +1,53 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/rgb-light-card/card.js",
+                "type": "module",
+                "id": "792d5c27228145a58c80017637951f86"
+            },
+            {
+                "url": "/hacsfiles/lovelace-slider-entity-row/slider-entity-row.js",
+                "type": "module",
+                "id": "2dad710e5b874f4b975eacaedd546085"
+            },
+            {
+                "url": "/hacsfiles/lovelace-card-templater/lovelace-card-templater.js",
+                "type": "module",
+                "id": "1885a8c31ed04c9bbf3e15887869db1f"
+            },
+            {
+                "url": "/hacsfiles/battery-state-card/battery-state-card.js",
+                "type": "module",
+                "id": "3c4a1b1278b1485faa360fa35685e72d"
+            },
+            {
+                "url": "/hacsfiles/zha-network-card/zha-network-card.js",
+                "type": "module",
+                "id": "9694aa58dd2141709038c3f6415c2b63"
+            },
+            {
+                "url": "/local/zha-network-visualization-card/zha-network-visualization-card.js",
+                "type": "module",
+                "id": "c0008dceae084804b65c8896e9fc8ba5"
+            },
+            {
+                "url": "/local/zigzag/dist/zigzag-card.js",
+                "type": "module",
+                "id": "1006f6440d3e4a849d6a8636819ad9fb"
+            },
+            {
+                "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js",
+                "type": "module",
+                "id": "27fce90569f04192955ece6663e1a4bf"
+            },
+            {
+                "url": "/hacsfiles/button-card/button-card.js",
+                "type": "module",
+                "id": "c075d19cae3f4e929a2385ef882808f8"
+            }
+        ]
+    }
+}

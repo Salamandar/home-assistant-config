@@ -1,0 +1,56 @@
+{
+    "ieee": "68:0a:e2:ff:fe:a9:a4:46",
+    "nwk": "0x0c98",
+    "lqi": null,
+    "device_type": "Router",
+    "manufacturer": "IKEA of Sweden",
+    "model": "TRADFRI bulb E27 WS opal 1000lm",
+    "offline": false,
+    "neighbours": [
+        {
+            "ieee": "cc:cc:cc:ff:fe:a5:f4:02",
+            "nwk": "0x0000",
+            "lqi": 253,
+            "pan_id": "ca:45:9e:a3:ce:01:3d:79",
+            "device_type": "Coordinator",
+            "rx_on_when_idle": "On",
+            "relation": "Parent",
+            "new_joins_accepted": "Unknown",
+            "depth": 0,
+            "model": "EZSP",
+            "manufacturer": "Silicon Labs",
+            "offline": false,
+            "supported": true
+        },
+        {
+            "ieee": "00:15:8d:00:02:c3:7c:3a",
+            "nwk": "0xeb49",
+            "lqi": 249,
+            "pan_id": "ca:45:9e:a3:ce:01:3d:79",
+            "device_type": "EndDevice",
+            "rx_on_when_idle": "Off",
+            "relation": "Child",
+            "new_joins_accepted": "NotAccepting",
+            "depth": 2,
+            "model": "lumi.sensor_magnet.aq2",
+            "manufacturer": "LUMI",
+            "offline": false,
+            "supported": true
+        },
+        {
+            "ieee": "68:0a:e2:ff:fe:a3:63:ea",
+            "nwk": "0x0f7e",
+            "lqi": 254,
+            "pan_id": "ca:45:9e:a3:ce:01:3d:79",
+            "device_type": "EndDevice",
+            "rx_on_when_idle": "Off",
+            "relation": "Child",
+            "new_joins_accepted": "NotAccepting",
+            "depth": 2,
+            "model": "TRADFRI remote control",
+            "manufacturer": "IKEA of Sweden",
+            "offline": false,
+            "supported": true
+        }
+    ]
+}

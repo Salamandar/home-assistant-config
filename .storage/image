@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "key": "image",
+    "data": {
+        "items": [
+            {
+                "id": "492ddb32a8b1f789ecd55a0589111573",
+                "filesize": 54160,
+                "content_type": "image/jpeg",
+                "name": "Salamandar.png",
+                "uploaded_at": "2020-10-20T17:09:49.725027+00:00"
+            },
+            {
+                "id": "f7a6d1ae16d2c6b5462c7e879d4941f6",
+                "filesize": 45558,
+                "content_type": "image/jpeg",
+                "name": "Salamandar_white.png",
+                "uploaded_at": "2020-10-20T17:10:02.901224+00:00"
+            }
+        ]
+    }
+}

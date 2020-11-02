@@ -1,0 +1,259 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:a5:f4:02"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:a5:f4:02"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP = Silicon Labs EmberZNet protocol: Elelabs, HUSBZB-1, Telegesis",
+                "name": "Zigbee Coordinator",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "70fd618312c311ebb41d176119abf7a8",
+                "via_device_id": null,
+                "area_id": "57c831f512c311eb93250fdd61df9b86",
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:02:c3:7c:3a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:02:c3:7c:3a"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.sensor_magnet.aq2",
+                "name": "LUMI lumi.sensor_magnet.aq2",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "70fdd9de12c311ebb2b8e38596fe6156",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "78cf7ece12c311eba31a137df34dc2ff",
+                "name_by_user": "Capteur Porte Terrasse"
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "68:0a:e2:ff:fe:a9:a4:46"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "68:0a:e2:ff:fe:a9:a4:46"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI bulb E27 WS opal 1000lm",
+                "name": "IKEA of Sweden TRADFRI bulb E27 WS opal 1000lm",
+                "sw_version": "0x20022623",
+                "entry_type": null,
+                "id": "70fe7bb512c311eb98b3c56205f8d0b2",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "7a8e091912c311eb99daf7690f82191b",
+                "name_by_user": "Ampoule Bureau"
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "68:0a:e2:ff:fe:a3:63:ea"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "68:0a:e2:ff:fe:a3:63:ea"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "TRADFRI remote control",
+                "name": "IKEA of Sweden TRADFRI remote control",
+                "sw_version": "0x23014631",
+                "entry_type": null,
+                "id": "70fef23b12c311eba61d578033470e6e",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "7a8e091912c311eb99daf7690f82191b",
+                "name_by_user": "Commande IKEA Bureau"
+            },
+            {
+                "config_entries": [
+                    "c105be2012c311eb9ab46fb932adf372"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.6.1",
+                "entry_type": "service",
+                "id": "c210f4b012c311ebbca679f39a70cdd0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "3fbd0d0712f611ebb3688b53ad545b22"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "bd5dc9acdcfbc72a"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Redmi Note 9 Pro",
+                "name": "Silmarilion",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "3fbd100312f611ebaf7ad91da7f94c2a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:4d:4a:1a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:05:4d:4a:1a"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "LUMI lumi.weather",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "328969761cf011ebbd5319c2dbed3d9c",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "78cf7ece12c311eba31a137df34dc2ff",
+                "name_by_user": "M\u00e9t\u00e9o Terrasse"
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:4c:b3:7b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:05:4c:b3:7b"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "LUMI lumi.weather",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b41429371cf611eba9015346c3a36306",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "57c842ba12c311eb91ba39580047de35",
+                "name_by_user": "M\u00e9t\u00e9o Chambre"
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:4c:b3:a4"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:05:4c:b3:a4"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "LUMI lumi.weather",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9102d7f51cf711eb932045dfc33dcbdf",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "57c831f512c311eb93250fdd61df9b86",
+                "name_by_user": "M\u00e9t\u00e9o Salon"
+            },
+            {
+                "config_entries": [
+                    "7019efe812c311eb84ea9d347744da09"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:4c:b1:c4"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:15:8d:00:05:4c:b1:c4"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "LUMI lumi.weather",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "da52c5841cf711ebaca611ccec8fa50e",
+                "via_device_id": "70fd618312c311ebb41d176119abf7a8",
+                "area_id": "7a8e091912c311eb99daf7690f82191b",
+                "name_by_user": "M\u00e9t\u00e9o Bureau"
+            }
+        ],
+        "deleted_devices": []
+    }
+}

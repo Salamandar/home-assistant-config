@@ -1,0 +1,23 @@
+# Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml
+
+# Log files
+*.log
+.HA_VERSION
+*.db
+
+# Storage folders
+custom_components
+themes
+www
+
+# Ignore folders.
+.cloud
+.google.token
+.storage/auth*
+.storage/core.config
+.storage/core.uuid
+.storage/frontend.user_data*
+.storage/hacs.repositories
